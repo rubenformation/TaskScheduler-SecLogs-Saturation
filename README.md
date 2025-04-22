@@ -10,6 +10,7 @@ By [Ruben Enkaoua](https://x.com/rubenlabs) and [Cymulate](https://cymulate.com/
 <br>
 
 An attacker can register a task with a 5KB XML file - See [TaskScheduler-Logs-Tampering](https://github.com/rubenformation/TaskScheduler-Logs-Tampering), with a low privileged user and a password, which will not run. But the log is still registered, with a 3500 bytes buffer. It is possible to overwrite the whole Security.evtx database, since it is configured to contain maximum 20MB of logs by default. 
+The vulnerability can also be triggered remotely by patching the author entry in the XML file sent over RPC in [impacket-atexec](https://github.com/fortra/impacket/blob/master/examples/atexec.py)
 <br>
 <br>
 
