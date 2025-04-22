@@ -1,4 +1,4 @@
-# Task Scheduler Logs Poisoning & Tampering
+# Security Logs Saturation
 By [Ruben Enkaoua](https://x.com/rubenlabs) and [Cymulate](https://cymulate.com/)
 <br>
 <br>
